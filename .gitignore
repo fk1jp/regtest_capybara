@@ -1,0 +1,6 @@
+.bundle/
+Gemfile.lock
+screenshot/
+vendor/
+/lists/*
+!/lists/sample_meti.txt
