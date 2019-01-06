@@ -23,7 +23,7 @@ bundle exec ruby capture.rb test_meti http://www.meti.go.jp lists/sample_meti.tx
 bundle exec ruby diff.rb screenshot/{tag_1} screenshot/{tag_2}
 ```
 以下ディレクトリに諸々置かれる。
-screenshot/image_diff/{tag_1}__vs__{tag_2}
+`screenshot/image_diff/{tag_1}__vs__{tag_2}`
 - log.csv(差分があるものは、どれくらい差分が出るか%で表示される。ないものはno_diffと表示される)
 - 画像ファイル(差分が表示される)
 
